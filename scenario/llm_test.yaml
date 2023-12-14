@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "llm-test"
   labels:
     scenarios.ai.sap.com/id: "llm-code"
-    ai.sap.com/version: "1.0"
+    ai.sap.com/version: "1.1"
 spec:
   imagePullSecrets:
     - name: credstutorialrepo # your docker registry secret
@@ -22,7 +22,7 @@ spec:
 
   - name: mycodeblock1
     container:
-      image: docker.io/rotin/llm-test:01 # Your docker image name
+      image: docker.io/rotin/llm-test:02 # Your docker image name
       command: ["/bin/sh", "-c"]
       args:
         - "python /app/src/main.py"
