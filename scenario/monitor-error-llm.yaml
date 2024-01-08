@@ -4,7 +4,7 @@ metadata:
   name: monitor-error-llm-service # executable ID, must be unique across your SAP AI Core instance, for example use `server-pipeline-yourname-1234`
   annotations:  
     scenarios.ai.sap.com/description: "monitor error llm"
-    scenarios.ai.sap.com/name: "llm service Proxy" # Scenario name should be the use case
+    scenarios.ai.sap.com/name: "monitor error llm" # Scenario name should be the use case
     executables.ai.sap.com/description: "llm service Completions Proxy as Inference"
     executables.ai.sap.com/name: "monitor-error-llm" # Executable name should describe the workflow in the use case
   labels:
